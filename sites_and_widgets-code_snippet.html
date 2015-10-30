@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Effect</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300&subset=latin,cyrillic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="ui/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="ui/jquery-ui.structure.css">
+    <link rel="stylesheet" type="text/css" href="ui/jquery-ui.theme.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.rating.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+   
+    <div class="header">
+      <div class="container">
+       <div class="row">
+        
+        <button type="button" aria-label="Toggle Navigation" class="mmenu x mmenu_open">
+          <span class="lines"></span>
+        </button>
+        
+        <div class="topmenu closemenu scroll-wrapper">
+          <div class="mclose">
+            <button type="button" aria-label="Toggle Navigation" class="mmenu x close">
+              <span class="lines"></span>
+            </button>
+          </div>
+          <ul>
+            <li><a href="javascript:;"  role="button">Клиенты</a></li>
+            <li><a href="javascript:;"  role="button">Сайты и виджеты</a></li>
+            <li>
+              <a href="javascript:;"  role="button">Сотрудники и отделы</a>
+              <ul>
+                <li><a class="active" href="javascript:;"  role="button">Сотрудники</a></li>
+                <li><a href="javascript:;"  role="button">Отделы</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="javascript:;"  role="button">Сценарии и шаблоны</a>
+              <ul>
+                <li><a href="javascript:;"  role="button">Сценарии</a></li>
+                <li><a href="javascript:;"  role="button">Шаблоны</a></li>
+              </ul>
+            </li>
+            <li><a href="javascript:;"  role="button">Статистика и аналитика</a></li>
+            <li>
+              <a href="javascript:;"  role="button">Администратор</a>
+              <ul>
+                <li><a href="javascript:;"  role="button">Настройка профиля</a></li>
+                <li><a href="javascript:;"  role="button">Баланс и оплата</a></li>
+                <li><a href="javascript:;"  role="button">API</a></li>
+                <li><a href="javascript:;"  role="button">Выход</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        
+        <a  href="javascript:;"  role="button"  class="logo" tabindex="1"></a>
+        
+        <div class="header_menu">
+         
+          <div class="user">
+           <div class="menuoverlay">
+             <a  href="javascript:;"  role="button" class="menudrop" tabindex="1"><span class="menudrop-arrow"></span>
+    
+             <span class="hfoto">
+               <img src="img/admfoto.png" alt="">
+            </span>
+    
+             <span class="hdescr">
+               <span class="hname">Ксюша</span>
+               <span class="status">Администратор</span>
+             </span> 
+             </a>
+             
+           </div>
+    
+           
+          
+           
+           <ul class="menuuser">
+             <li><a href="javascript:;"  role="button">Настройки профиля</a></li>
+             <li><a href="javascript:;"  role="button">Баланс и оплата</a></li>
+             <li><a href="javascript:;"  role="button">API</a></li>
+             <li><a href="javascript:;"  role="button">Выход</a></li>
+           </ul>
+           
+          </div>
+          
+          <ul>
+            <li><a class="ico1" href="javascript:;"  role="button" tabindex="2">
+              <span class="notice">1</span>
+              <span class="dot">Уведомления</span></a>
+            </li>
+            <li><a class="ico2" href="javascript:;"  role="button" tabindex="2"><span class="dot">Помощь</span></a></li>
+            <li><a class="ico3" href="javascript:;"  role="button" tabindex="2"><span class="dot">6 789 руб.</span></a></li>
+          </ul>
+          
+        </div>
+        
+        </div>
+      </div>  
+    </div>
+    
+    <div class="menu">
+      <div class="container">
+       <div class="row">
+       
+         <ul>
+           <li><a href="javascript:;"  role="button"  tabindex="3">Клиенты</a></li>
+           <li><a href="javascript:;"  role="button" tabindex="3">Сайты и виджеты</a></li>
+           <li>
+               <a class="hasdropmenu" href="javascript:;"  role="button" tabindex="3">Сотрудники и отделы</a>
+               <ul class="dropmenu">
+                   <li><a class="active" href="javascript:;"  role="button">Сотрудники</a></li>
+                   <li><a href="javascript:;"  role="button">Отделы</a></li>
+               </ul>
+           </li>
+           <li>
+               <a class="hasdropmenu" href="javascript:;"  role="button" tabindex="3">Сценарии и шаблоны</a>
+               <ul class="dropmenu">
+                   <li><a class="active" href="javascript:;"  role="button">Сценарии</a></li>
+                   <li><a href="javascript:;"  role="button">Шаблоны</a></li>
+               </ul>
+           </li>
+           <li><a href="javascript:;"  role="button" tabindex="3">Статистика и Аналитика</a></li>
+         </ul>
+         
+         <a  href="javascript:;"  role="button" class="openmenu"></a>
+         
+        </div>
+      </div>  
+    </div>
+    
+    <div class="secondmenu">
+      <div class="container">
+       <div class="row">
+        
+         <div class="col s12" id="secondmenurow"></div>
+         
+        </div>
+      </div> 
+    </div>
+    
+    <div class="content">
+      <div class="container content_container">
+        <div class="row">
+          
+          <div class="subject">
+            <h1>Сайты и виджеты</h1>
+            <a href="javascript:;"  role="button" class="playreview whitebtn" tabindex="3">Посмотреть видео-обзор раздела</a>
+          </div>
+
+         
+          <div class="addblock row">
+            <div class="col s12 m3 l3 lmenu">
+              <ul>
+                <li>
+                  <a href="javascript:;"  role="button" tabindex="4">
+                    <span class="icon"><img alt="" src="img/ico1.png"></span>
+                    <span>Адрес сайта</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="active" href="javascript:;"  role="button" tabindex="4">
+                    <span class="icon"><img alt="" src="img/ico2.png"></span>
+                    <span>Сотрудники и отделы</span>
+                  </a>
+                </li>
+                <li>
+                <a href="javascript:;"  role="button" tabindex="4">
+                  <span class="icon"><img alt="" src="img/ico3.png"></span>
+                  <span>Код для сайта</span>
+                </a>
+                </li>
+                <li>
+                  <a href="javascript:;"  role="button" tabindex="4">
+                    <span class="icon"><img alt="" src="img/ico4.png"></span>
+                    <span>Настройки дизайна</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:;"  role="button" tabindex="4">
+                    <span class="icon"><img alt="" src="img/ico5.png"></span>
+                    <span>Дополнительные настройки</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col s12 m9 l9 whitebg">
+                <div class="rblock">
+                                       
+                    <form class="fscript_2 stform">
+                    
+                <div class="row first-row">
+                    <div class="col l9 m12  s12">    
+                  
+                    <p class="h3">Установите код на ваш сайт</p>
+                            <p class="h4">Код следует установить на всех страницах сайта перед закрывающим тэгом </p>
+                            <pre class="codehtml">&lt;script src='http://site.com/script.php?s=13&u=159' charset="UTF-8"&gt;
+&lt;/script&gt; &lt;link href="http://site.com/css/modal.css" rel="stylesheet"&gt;</pre>
+               
+                    
+                    
+           <div class="form_row ">
+                        
+                        
+                        
+                        <div class="subject subjekt-sm"> 
+                            
+                            
+                <div class="row">  
+                <div class="col m6 s12"  >                   
+            <a href="javascript:;" class="btn btn-primary  popup-with-form " tabindex="4">Проверить установку кода</a>
+            </div>
+            <div class="col m6 s12 text-right"  >
+            <a href="javascript:;" class="btn btn-primary  popup-with-form " tabindex="4">Скопировать в буфер обмена</a>
+            </div>
+            
+            </div>
+          </div>
+          </div>             
+          <div class="form_row form_row-sm">
+                           
+                            <div class="form_row_checkbox" tabindex="5">
+                                <input type="checkbox" class="filled-in" id="distribute1" />
+                                <label for="distribute1">Распределять сторудников по отделам / филиалам</label>
+                            </div>
+          
+          </div>
+          <div class="form_row">
+                            <p class="h3">Выберите часовой пояс</p>
+                            
+                            <div class="row">  
+                <div class="col m6 s6 "  >    
+                                    
+                                    <select class="dropdown" tabindex="5">
+                                        <option class="label">Россия</option>
+                                        <option value="1">Россия</option>
+                                        <option value="2">Россия</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="col m6 s6"  >  
+                                    
+                                    <select class="dropdown" tabindex="5">
+                                        <option class="label">UTC+3.00-Москва</option>
+                                        <option value="1">UTC+4.00-Москва</option>
+                                        <option value="2">UTC+5.00-Москва</option>
+                                    </select>
+                                </div>
+                                <div class="form_row_50"></div>
+                            </div>
+                            
+                            
+                            
+                            
+                            
+                        </div>
+          
+                     
+               </div>             
+             </div>               
+                 <div class="form_row range-row">           
+                        
+                    <div class="form_row_checkbox" tabindex="5">
+                                <input type="checkbox" class="filled-in" id="tune1"  tabindex="5"/>
+                                <label for="tune1">Отправлять отчеты о всех совершенных звонках</label>
+                            </div>    
+                        
+                   <div class="form_row_checkbox" tabindex="5">
+                                <input type="checkbox" class="filled-in" id="tune2"  tabindex="5"/>
+                                <label for="tune2">Отправлять отчеты только о звонках с оценкой клиента </label>
+                                <div  class="raiting">
+                        <input type="hidden" class="val" value="1.75"/>
+        		<input type="hidden" class="votes" value="2"/>
+          
+		</div> и ниже 
+                            </div>
+                     <div class="form_row_checkbox" tabindex="5">
+                                <input type="checkbox" class="filled-in" id="tune3"  tabindex="5"/>
+                                <label for="tune3">Отправлять отчеты об общении в чате с оценкой клиента  </label>
+                                <div  class="raiting">
+                        <input type="hidden" class="val" value="1.75"/>
+        		<input type="hidden" class="votes" value="2"/>
+          
+		</div> и ниже 
+                            </div>     
+	</div>
+			
+			     
+                        <div class="form_row">
+                            <button type="submit" class="greenbtn"  tabindex="5">Сохранить</button>
+                            <button type="submit" class="greenbtn "  tabindex="5">Сохранить и перейти на следующий шаг</button>
+                            <a href="#choisoneemployee" class="btn btn-primary  popup-with-form ">+ Выбрать из списка</a>
+                        </div>  
+                        
+                    </form>
+                </div>
+            </div>
+          </div>
+          
+
+          
+          
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer">
+        <div class="buttontop"><span class="opacity"></span></div>
+        <div class="container">
+            <div class="row">
+                <div class="col s6 m3 l3">
+                  © 2015 - ∞. Vasya, все тлько начинается
+                  Все права защищены супер-защитой.
+                  +7 (777) 666-55-44 
+                </div>
+                <div class="col s6 m3 l3">
+                    <ul class="footermenu">
+                        <li><a href="javascript:;"  role="button">Партнерская программа</a></li>
+                        <li><a href="javascript:;"  role="button">Договор офоерта</a></li>
+                        <li><a href="javascript:;"  role="button">Политика конфиденциальности</a></li>
+                        <li><a href="javascript:;"  role="button">СМИ</a></li>
+                    </ul>
+                </div>
+                <div class="col s6 m3 l3">
+                    <ul class="footermenu">
+                        <li><a href="javascript:;"  role="button">ВКонтакте</a></li>
+                        <li><a href="javascript:;"  role="button">FaceBook</a></li>
+                        <li><a href="javascript:;"  role="button">Twitter</a></li>
+                        <li><a href="javascript:;"  role="button">Youtube</a></li>
+                    </ul>
+                </div>
+                <div class="col s6 m3 l3">
+                    <ul class="footermenu">
+                        <li><a href="javascript:;"  role="button">Это подвал</a></li>
+                        <li><a href="javascript:;"  role="button">Личного кабинета</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>  
+    </div>
+    
+    
+    
+    
+  
+    
+    
+   
+   
+   
+   
+   
+
+   <script type="text/javascript" src="js/main.js"></script>
+<script src="ui/jquery-ui.js"></script>
+<script src="js/jquery.rating.min.js"></script> 
+ 
+
+</body>
+</html>

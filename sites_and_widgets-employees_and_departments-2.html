@@ -1,0 +1,1048 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Effect</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300&subset=latin,cyrillic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="ui/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="ui/jquery-ui.structure.css">
+    <link rel="stylesheet" type="text/css" href="ui/jquery-ui.theme.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.rating.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+   
+    <div class="header">
+      <div class="container">
+       <div class="row">
+        
+        <button type="button" aria-label="Toggle Navigation" class="mmenu x mmenu_open">
+          <span class="lines"></span>
+        </button>
+        
+        <div class="topmenu closemenu scroll-wrapper">
+          <div class="mclose">
+            <button type="button" aria-label="Toggle Navigation" class="mmenu x close">
+              <span class="lines"></span>
+            </button>
+          </div>
+          <ul>
+            <li><a href="javascript:;"  role="button">Клиенты</a></li>
+            <li><a href="javascript:;"  role="button">Сайты и виджеты</a></li>
+            <li>
+              <a href="javascript:;"  role="button">Сотрудники и отделы</a>
+              <ul>
+                <li><a class="active" href="javascript:;"  role="button">Сотрудники</a></li>
+                <li><a href="javascript:;"  role="button">Отделы</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="javascript:;"  role="button">Сценарии и шаблоны</a>
+              <ul>
+                <li><a href="javascript:;"  role="button">Сценарии</a></li>
+                <li><a href="javascript:;"  role="button">Шаблоны</a></li>
+              </ul>
+            </li>
+            <li><a href="javascript:;"  role="button">Статистика и аналитика</a></li>
+            <li>
+              <a href="javascript:;"  role="button">Администратор</a>
+              <ul>
+                <li><a href="javascript:;"  role="button">Настройка профиля</a></li>
+                <li><a href="javascript:;"  role="button">Баланс и оплата</a></li>
+                <li><a href="javascript:;"  role="button">API</a></li>
+                <li><a href="javascript:;"  role="button">Выход</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        
+        <a  href="javascript:;"  role="button" class="logo"></a>
+        
+        <div class="header_menu">
+         
+          <div class="user">
+           <div class="menuoverlay">
+             <a  href="javascript:;"  role="button" class="menudrop"><span class="menudrop-arrow"></span>
+    
+             <span class="hfoto">
+               <img src="img/admfoto.png" alt="">
+            </span>
+    
+             <span class="hdescr">
+               <span class="hname">Ксюша</span>
+               <span class="status">Администратор</span>
+             </span> 
+             </a>
+             
+           </div>
+    
+           
+          
+           
+           <ul class="menuuser">
+             <li><a href="javascript:;"  role="button">Настройки профиля</a></li>
+             <li><a href="javascript:;"  role="button">Баланс и оплата</a></li>
+             <li><a href="javascript:;"  role="button">API</a></li>
+             <li><a href="javascript:;"  role="button">Выход</a></li>
+           </ul>
+           
+          </div>
+          
+          <ul>
+            <li><a class="ico1" href="javascript:;"  role="button">
+              <span class="notice">1</span>
+              <span class="dot">Уведомления</span></a>
+            </li>
+            <li><a class="ico2" href="javascript:;"  role="button"><span class="dot">Помощь</span></a></li>
+            <li><a class="ico3" href="javascript:;"  role="button"><span class="dot">6 789 руб.</span></a></li>
+          </ul>
+          
+        </div>
+        
+        </div>
+      </div>  
+    </div>
+    
+    <div class="menu">
+      <div class="container">
+       <div class="row">
+       
+         <ul>
+           <li><a href="javascript:;"  role="button">Клиенты</a></li>
+           <li><a href="javascript:;"  role="button">Сайты и виджеты</a></li>
+           <li>
+               <a class="hasdropmenu" href="javascript:;"  role="button">Сотрудники и отделы</a>
+               <ul class="dropmenu">
+                   <li><a class="active" href="javascript:;"  role="button">Сотрудники</a></li>
+                   <li><a href="javascript:;"  role="button">Отделы</a></li>
+               </ul>
+           </li>
+           <li>
+               <a class="hasdropmenu" href="javascript:;"  role="button">Сценарии и шаблоны</a>
+               <ul class="dropmenu">
+                   <li><a class="active" href="javascript:;"  role="button">Сценарии</a></li>
+                   <li><a href="javascript:;"  role="button">Шаблоны</a></li>
+               </ul>
+           </li>
+           <li><a href="javascript:;"  role="button">Статистика и Аналитика</a></li>
+         </ul>
+         
+         <a class="openmenu" href="javascript:;"  role="button"></a>
+         
+        </div>
+      </div>  
+    </div>
+    
+    <div class="secondmenu">
+      <div class="container">
+       <div class="row">
+        
+         <div class="col s12" id="secondmenurow"></div>
+         
+        </div>
+      </div> 
+    </div>
+    
+    <div class="content">
+      <div class="container content_container">
+        <div class="row">
+          
+          <div class="subject">
+            <h1>Сайты и виджеты</h1>
+            <a href="javascript:;"  role="button" class="playreview whitebtn" tabindex="3">Посмотреть видео-обзор раздела</a>
+          </div>
+
+         
+          <div class="addblock row">
+            <div class="col s12 m3 l3 lmenu">
+              <ul>
+                <li>
+                  <a href="javascript:;"  role="button" tabindex="4">
+                    <span class="icon"><img alt="" src="img/ico1.png"></span>
+                    <span>Адрес сайта</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="active" href="javascript:;"  role="button" tabindex="4">
+                    <span class="icon"><img alt="" src="img/ico2.png"></span>
+                    <span>Сотрудники и отделы</span>
+                  </a>
+                </li>
+                <li>
+                <a href="javascript:;"  role="button" tabindex="4">
+                  <span class="icon"><img alt="" src="img/ico3.png"></span>
+                  <span>Код для сайта</span>
+                </a>
+                </li>
+                <li>
+                  <a href="javascript:;"  role="button" tabindex="4">
+                    <span class="icon"><img alt="" src="img/ico4.png"></span>
+                    <span>Настройки дизайна</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:;"  role="button" tabindex="4">
+                    <span class="icon"><img alt="" src="img/ico5.png"></span>
+                    <span>Дополнительные настройки</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col s12 m9 l9 whitebg">
+                <div class="rblock">
+                                       
+                    <form class="fscript_2 stform">
+                    <div class="row first-row ">
+                    <div class="col m12 l7 ">
+                    
+           <div class="form_row ">
+                        
+                        
+                        
+                        <div class="subject"> 
+                            <p class="h3">Сотрудники и отделы</p>
+                            
+                <div class="row">  
+                <div class="col m6 s12"  >                   
+            <a href="#addemployee" class="btn btn-primary  popup-with-form " tabindex="4">+ Добавить сотрудника</a>
+            </div>
+            <div class="col m6 s12 text-right"  >
+            <a href="#choisemployee" class="btn btn-primary  popup-with-form " tabindex="4">+ Выбрать из списка</a>
+            </div>
+            
+            </div>
+          </div>
+          </div> 
+          
+          
+           <div class="form_row no-marg-bot ">
+          
+          
+          <ul class=" add-emp ">
+    <li>
+    						<div class="form_row_checkbox">
+                                <div class="img-block ">
+                                
+                                <img src="images/helen.jpg" alt="" class=" img-circle">
+                                
+                                </div>
+                                 <span class="emp-inf">Елена<br>ezz@mail.ru<br>+79214567788
+</span> <div class="drop-block">
+                            <button type="button" aria-label="Toggle Navigation" class="lines-button x" tabindex="5"><span class="lines"></span></button>
+                                 <ul class="dropmenu">
+                                   <li><a href="javascript:;"  role="button">Редактировать</a></li>
+                                   <li><a href="javascript:;"  role="button">Удалить</a></li>
+                                 </ul>
+                         </div>
+                            </div>    
+    </li>
+    <li>
+    						<div class="form_row_checkbox">
+                                
+                                <span class="img-block">
+                                <img src="images/helen.jpg" alt="" class=" img-circle">
+                                </span>
+                                 <span class="emp-inf">Елена<br>ezz@mail.ru<br>+79214567788
+</span> <div class="drop-block">
+                            <button type="button" aria-label="Toggle Navigation" class="lines-button x" tabindex="5"><span class="lines"></span></button>
+                                 <ul class="dropmenu">
+                                   <li><a href="javascript:;"  role="button">Редактировать</a></li>
+                                   <li><a href="javascript:;"  role="button">Удалить</a></li>
+                                 </ul>
+                         </div>
+                            </div>    
+    </li>
+    <li>
+    						<div class="form_row_checkbox">
+                                
+                                <span class="img-block">
+                                <img src="images/helen.jpg" alt="" class=" img-circle">
+                                </span>
+                                 <span class="emp-inf">Елена<br>ezz@mail.ru<br>+79214567788
+</span> <div class="drop-block">
+                            <button type="button" aria-label="Toggle Navigation" class="lines-button x" tabindex="5"><span class="lines"></span></button>
+                                 <ul class="dropmenu">
+                                   <li><a href="javascript:;"  role="button">Редактировать</a></li>
+                                   <li><a href="javascript:;"  role="button">Удалить</a></li>
+                                 </ul>
+                         </div>
+                            </div>    
+    </li>
+    <li>
+    						<div class="form_row_checkbox">
+                                
+                                <span class="img-block">
+                                <img src="images/helen.jpg" alt="" class=" img-circle">
+                                </span>
+                                 <span class="emp-inf">Елена<br>ezz@mail.ru<br>+79214567788
+</span> <div class="drop-block">
+                            <button type="button" aria-label="Toggle Navigation" class="lines-button x" tabindex="5"><span class="lines"></span></button>
+                                 <ul class="dropmenu">
+                                   <li><a href="javascript:;"  role="button">Редактировать</a></li>
+                                   <li><a href="javascript:;"  role="button">Удалить</a></li>
+                                 </ul>
+                         </div>
+                            </div>    
+    </li>
+    
+    </ul>
+          
+          
+          </div>
+                      
+          <div class="form_row form_row-sm">
+                           
+                            <div class="form_row_checkbox" tabindex="5">
+                                <input type="checkbox" class="filled-in" id="distribute1" />
+                                <label for="distribute1">Распределять сторудников по отделам / филиалам</label>
+                            </div>
+          
+          </div>
+          <div class="form_row">
+                            <p class="h3">Отделы</p>
+                            
+              <div class="row">  
+                <div class="col m12 s12"  >                   
+            <a href="#addemployee" class="btn btn-primary  popup-with-form " tabindex="4">+ Добавить отдел</a>
+            </div>
+            
+            
+            </div>              
+                      
+            <ul class=" add-emp depart">
+    <li>
+    						
+                                
+                                
+                                 <span class="emp-inf">Московский отдел</span>
+                                  <div class="drop-block">
+                            <button type="button" aria-label="Toggle Navigation" class="lines-button x" tabindex="5"><span class="lines"></span></button>
+                                 <ul class="dropmenu">
+                                   <li><a href="javascript:;"  role="button">Редактировать</a></li>
+                                   <li><a href="javascript:;"  role="button">Удалить</a></li>
+                                 </ul>
+                         </div>
+                              
+    </li>          
+      <li>
+    						
+                                
+                                
+                                 <span class="emp-inf">Московский отдел</span>
+                                  <div class="drop-block">
+                            <button type="button" aria-label="Toggle Navigation" class="lines-button x" tabindex="5"><span class="lines"></span></button>
+                                 <ul class="dropmenu">
+                                   <li><a href="javascript:;"  role="button">Редактировать</a></li>
+                                   <li><a href="javascript:;"  role="button">Удалить</a></li>
+                                 </ul>
+                         </div>
+                              
+    </li>      
+        <li>
+    						
+                                
+                                
+                                 <span class="emp-inf">Московский отдел</span>
+                                  <div class="drop-block">
+                            <button type="button" aria-label="Toggle Navigation" class="lines-button x" tabindex="5"><span class="lines"></span></button>
+                                 <ul class="dropmenu">
+                                   <li><a href="javascript:;"  role="button">Редактировать</a></li>
+                                   <li><a href="javascript:;"  role="button">Удалить</a></li>
+                                 </ul>
+                         </div>
+                              
+    </li>          
+      <li>
+    						
+                                
+                                
+                                 <span class="emp-inf">Московский отдел</span>
+                                  <div class="drop-block">
+                            <button type="button" aria-label="Toggle Navigation" class="lines-button x" tabindex="5"><span class="lines"></span></button>
+                                 <ul class="dropmenu">
+                                   <li><a href="javascript:;"  role="button">Редактировать</a></li>
+                                   <li><a href="javascript:;"  role="button">Удалить</a></li>
+                                 </ul>
+                         </div>
+                              
+    </li>          
+                      
+           </ul>           
+                      
+                      
+                      
+                      
+                      
+                            
+                            
+                            
+                            
+                            
+                        </div>
+          
+          
+                        
+                        
+                        
+                        
+                        
+                           
+                        
+              
+                
+                            
+                            
+                            
+          
+                       
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                            
+               </div>             
+             </div>               
+                 
+			
+			     
+                        <div class="form_row">
+                            <button type="submit" class="greenbtn"  tabindex="5">Сохранить</button>
+                            <button type="submit" class="greenbtn "  tabindex="5">Сохранить и перейти на следующий шаг</button>
+                            
+                        </div>  
+                        
+                    </form>
+                </div>
+            </div>
+          </div>
+          
+
+          
+          
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer">
+        <div class="buttontop"><span class="opacity"></span></div>
+        <div class="container">
+            <div class="row">
+                <div class="col s6 m3 l3">
+                  © 2015 - ∞. Vasya, все тлько начинается
+                  Все права защищены супер-защитой.
+                  +7 (777) 666-55-44 
+                </div>
+                <div class="col s6 m3 l3">
+                    <ul class="footermenu">
+                        <li><a href="javascript:;"  role="button">Партнерская программа</a></li>
+                        <li><a href="javascript:;"  role="button">Договор офоерта</a></li>
+                        <li><a href="javascript:;"  role="button">Политика конфиденциальности</a></li>
+                        <li><a href="javascript:;"  role="button">СМИ</a></li>
+                    </ul>
+                </div>
+                <div class="col s6 m3 l3">
+                    <ul class="footermenu">
+                        <li><a href="javascript:;"  role="button">ВКонтакте</a></li>
+                        <li><a href="javascript:;"  role="button">FaceBook</a></li>
+                        <li><a href="javascript:;"  role="button">Twitter</a></li>
+                        <li><a href="javascript:;"  role="button">Youtube</a></li>
+                    </ul>
+                </div>
+                <div class="col s6 m3 l3">
+                    <ul class="footermenu">
+                        <li><a href="javascript:;"  role="button">Это подвал</a></li>
+                        <li><a href="javascript:;"  role="button">Личного кабинета</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>  
+    </div>
+    
+    
+    
+    
+    
+    
+    <div id="addemployee" class="white-popup-block max-width-popap">
+    <form>
+       <div class="headform">
+         Добавление / редактирование отдела
+       </div>
+       <div class="contentform">
+       
+       
+       
+       <div class="row modal-select ">
+       <div class="col l4 m4 s6">
+       <label>
+      <span class="big">Выберите часовой пояс</span>  
+       <select class="dropdown">
+                      <option class="label">Россия</option>
+                      <option value="1">Тип 1</option>
+                      <option value="2">Тип 2</option>
+                      <option value="3">Тип 3</option>
+                  </select></label>
+                  
+        </div>
+       <div class="col l4 m4 s6 text-center ">
+       <label>
+       <span></span>
+       <select class="dropdown">
+                      <option class="label">UTC+3.00-Москва</option>
+                      <option value="1">Тип 1</option>
+                      <option value="2">Тип 2</option>
+                      <option value="3">Тип 3</option>
+                  </select></label>
+       </div>
+       <div class="col l4 m4 s12  text-right">
+       <label>
+       <span>График работы как у отдела</span>
+       <select class="dropdown">
+                      <option class="label">Питерский офис</option>
+                      <option value="1">Тип 1</option>
+                      <option value="2">Тип 2</option>
+                      <option value="3">Тип 3</option>
+                  </select></label>
+       </div>
+       </div>
+       <div class="row">
+       <div class="col l8 m12 s12">
+       <div class="form_row ">
+                           <p class="h3">График работы </p>
+                            <div class="form_row_checkbox" tabindex="5">
+                                <input type="checkbox" class="filled-in" id="distribute2"  tabindex="5"/>
+                                <label for="distribute2">Будние дни по одному графику</label>
+                            </div>
+          
+         
+          
+          
+          
+                     
+                        <div class="form_row_checkbox form_checkbox_content"  tabindex="5">
+                        <div class="row row_spinner">
+                        	<div class="col m5 s12">
+                                <input type="checkbox" class="filled-in" id="time1" checked />
+                                <label for="time1">Понедельник</label>
+							</div>
+                            <div class="col m7 s12">
+                            <div class="row">
+                        <div class="inline_50">   <span class="inline_span">С</span>  
+<input class="spinner"  name="spinner" value="08:30"  tabindex="5">
+</div>
+ <div class=" inline_50">
+ <span class="inline_span">По</span>  
+  <input class="spinner"  name="spinner" value="08:30"  tabindex="5">
+</div>
+</div>
+
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="form_row_checkbox form_checkbox_content" tabindex="5" >
+                        <div class="row row_spinner">
+                        	<div class="col m5 s12">
+                                <input type="checkbox" class="filled-in" id="time2" checked />
+                                <label for="time2">Вторник</label>
+							</div>
+                            <div class="col m7 s12">
+                            <div class="row">
+                        <div class="inline_50">   <span class="inline_span">С</span>  
+<input class="spinner"  name="spinner" value="08:30"  tabindex="5">
+</div>
+ <div class=" inline_50">
+ <span class="inline_span">По</span>  
+  <input class="spinner"  name="spinner" value="08:30"  tabindex="5">
+</div>
+</div>
+
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="form_row_checkbox form_checkbox_content" tabindex="5">
+                        <div class="row row_spinner">
+                        	<div class="col m5 s12">
+                                <input type="checkbox" class="filled-in" id="time3" checked  />
+                                <label for="time3">Среда</label>
+							</div>
+                            <div class="col m7 s12">
+                            <div class="row">
+                        <div class="inline_50">   <span class="inline_span">С</span>  
+<input class="spinner"  name="spinner" value="08:30"  tabindex="5">
+</div>
+ <div class=" inline_50">
+ <span class="inline_span">По</span>  
+  <input class="spinner"  name="spinner" value="08:30"  tabindex="5">
+</div>
+</div>
+
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="form_row_checkbox form_checkbox_content"   tabindex="5">
+                        <div class="row row_spinner">
+                        	<div class="col m5 s12">
+                                <input type="checkbox" class="filled-in" id="time4" checked/>
+                                <label for="time4">Четверг</label>
+							</div>
+                            <div class="col m7 s12">
+                            <div class="row">
+                        <div class="inline_50">   <span class="inline_span">С</span>  
+<input class="spinner"  name="spinner" value="08:30"  tabindex="5">
+</div>
+ <div class=" inline_50">
+ <span class="inline_span">По</span>  
+  <input class="spinner"  name="spinner" value="08:30"  tabindex="5">
+</div>
+</div>
+
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="form_row_checkbox form_checkbox_content"  tabindex="5">
+                        <div class="row row_spinner">
+                        	<div class="col m5 s12">
+                                <input type="checkbox" class="filled-in" id="time5" checked />
+                                <label for="time5">Пятница</label>
+							</div>
+                            <div class="col m7 s12">
+                            <div class="row">
+                        <div class="inline_50">   <span class="inline_span">С</span>  
+<input class="spinner"  name="spinner" value="08:30"  tabindex="5">
+</div>
+ <div class=" inline_50">
+ <span class="inline_span">По</span>  
+  <input class="spinner"  name="spinner" value="08:30"  tabindex="5">
+</div>
+</div>
+
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="form_row_checkbox form_checkbox_content"  tabindex="5">
+                        <div class="row row_spinner">
+                        	<div class="col m5 s12">
+                                <input type="checkbox" class="filled-in" id="time6" checked />
+                                <label for="time6">Суббота</label>
+							</div>
+                            <div class="col m7 s12">
+                            <div class="row">
+                        <div class="inline_50">   <span class="inline_span">С</span>  
+<input class="spinner"  name="spinner" value="08:30"  tabindex="5">
+</div>
+ <div class=" inline_50">
+ <span class="inline_span">По</span>  
+  <input class="spinner"  name="spinner" value="08:30"  tabindex="5">
+</div>
+</div>
+
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="form_row_checkbox form_checkbox_content"  tabindex="5">
+                        <div class="row row_spinner">
+                        	<div class="col m5 s12">
+                                <input type="checkbox" class="filled-in" id="time7" checked />
+                                <label for="time7">Воскресенье</label>
+							</div>
+                            <div class="col m7 s12">
+                            <div class="row">
+                        <div class="inline_50">   <span class="inline_span">С</span>  
+<input class="spinner"  name="spinner" value="08:30"  tabindex="5">
+</div>
+ <div class=" inline_50">
+ <span class="inline_span">По</span>  
+  <input class="spinner"  name="spinner" value="08:30"  tabindex="5">
+</div>
+</div>
+
+                                </div>
+                            </div>
+                            
+                        </div>
+                </div>  
+        </div>    
+        </div>
+        
+            
+          <div class="form_row ">             
+                        
+                        <div class="form_row">
+                           <p class="h3">Дополнительные настройки</p>
+                            <div class="form_row_checkbox" tabindex="5">
+                                <input type="checkbox" class="filled-in" id="dop1"  tabindex="5"/>
+                                <label for="dop1">Включить геофильтр</label>
+                            </div>
+                            <div class="form_row_checkbox" tabindex="5">
+                                <input type="checkbox" class="filled-in" id="dop2"  tabindex="5"/>
+                                <label for="dop2">Отправлять клиентам sms с именем менеджера</label>
+                            </div>
+                            <div class="form_row_checkbox" tabindex="5">
+                                <input type="checkbox" class="filled-in" id="dop3"  tabindex="5"/>
+                                <label for="dop3">Отправлять sms о пропущенном звонке от клиента</label>
+                                <div class="url-block">
+                                <input type="tel" placeholder="+7(___)-___-__-__" class="seeend" tabindex="5">
+                                <span class="descrerr">Пример ошибки</span>
+                                </div>
+                            </div>
+                            
+                            
+                            
+          
+          </div>            
+                        
+                        
+             <div class="form_row">
+                           <p class="h3 small_bot">Настройки e-mail отчетности</p>
+                            
+                            
+                            <div class="form_row_checkbox" tabindex="5">
+                                
+                                <div class="url-block">
+                                <label><input type="email" placeholder="info@site_name.ru" class="seeend" tabindex="5">
+                                <span>e-mail для отчетов</span>
+                                </label>
+                                <span class="descrerr">Пример ошибки</span>
+                                </div>
+                            </div>
+                            
+                            
+                            
+          
+          </div>              
+               <div class="form_row range-row">           
+                        
+                    <div class="form_row_checkbox" tabindex="5">
+                                <input type="checkbox" class="filled-in" id="tune1"  tabindex="5"/>
+                                <label for="tune1">Отправлять отчеты о всех совершенных звонках</label>
+                            </div>    
+                        
+                   <div class="form_row_checkbox" tabindex="5">
+                                <input type="checkbox" class="filled-in" id="tune2"  tabindex="5"/>
+                                <label for="tune2">Отправлять отчеты только о звонках с оценкой клиента </label>
+                                <div  class="raiting">
+                        <input type="hidden" class="val" value="1.75"/>
+        		<input type="hidden" class="votes" value="2"/>
+          
+		</div> и ниже 
+                            </div>
+                     <div class="form_row_checkbox" tabindex="5">
+                                <input type="checkbox" class="filled-in" id="tune3"  tabindex="5"/>
+                                <label for="tune3">Отправлять отчеты об общении в чате с оценкой клиента  </label>
+                                <div  class="raiting">
+                        <input type="hidden" class="val" value="1.75"/>
+        		<input type="hidden" class="votes" value="2"/>
+          
+		</div> и ниже 
+                            </div>     
+	</div>  
+    
+     <p class="h3">Добавить сотрудников в отдел</p>
+     <div class="text-center">
+     <div class="inline-block">
+     <p class="text-left">Выбраны 8 из 9</p>
+    <ul class=" list-inline add-emp">
+    <li>
+    						<div class="form_row_checkbox" tabindex="5">
+                                <input type="checkbox" class="filled-in" id="emploe1"  tabindex="5"/>
+                                <label for="emploe1"><span class="img-block">
+                                <img src="images/helen.jpg" alt="" class=" img-circle">
+                                </span> <span>Елена</span></label>
+                            </div>    
+    </li>
+    <li>
+    						<div class="form_row_checkbox" tabindex="5">
+                                <input type="checkbox" class="filled-in" id="emploe2"  tabindex="5"/>
+                                <label for="emploe2"><span class="img-block">
+                                <img src="images/helen.jpg" alt="" class=" img-circle">
+                                </span> <span>Елена</span></label>
+                            </div>    
+    </li>
+    <li>
+    						<div class="form_row_checkbox" tabindex="5">
+                                <input type="checkbox" class="filled-in" id="emploe3"  tabindex="5"/>
+                                <label for="emploe3"><span class="img-block">
+                                <img src="images/helen.jpg" alt="" class=" img-circle">
+                                </span> <span>Елена</span></label>
+                            </div>    
+    </li>
+    <li>
+    						<div class="form_row_checkbox" tabindex="5">
+                                <input type="checkbox" class="filled-in" id="emploe4"  tabindex="5"/>
+                                <label for="emploe4"><span class="img-block">
+                                <img src="images/helen.jpg" alt="" class=" img-circle">
+                                </span> <span>Елена</span></label>
+                            </div>    
+    </li>
+    <li>
+    						<div class="form_row_checkbox" tabindex="5">
+                                <input type="checkbox" class="filled-in" id="emploe5"  tabindex="5"/>
+                                <label for="emploe5"><span class="img-block">
+                                <img src="images/helen.jpg" alt="" class=" img-circle">
+                                </span> <span>Елена</span></label>
+                            </div>    
+    </li>
+    <li>
+    						<div class="form_row_checkbox" tabindex="5">
+                                <input type="checkbox" class="filled-in" id="emploe6"  tabindex="5"/>
+                                <label for="emploe6"><span class="img-block">
+                                <img src="images/helen.jpg" alt="" class=" img-circle">
+                                </span> <span>Елена</span></label>
+                            </div>    
+    </li>
+    
+    
+    
+    </ul>
+     
+    </div> 
+   </div>  
+     
+     
+     
+     
+           
+            </div>            
+             
+       
+       
+          
+         <a href="javascript:;"  role="button" class="btn greenbtn">Сохранить </a>
+       </div>
+     </form>
+   </div>
+   
+   <div id="choisemployee" class="white-popup-block max-width-popap">
+    <form>
+       <div class="headform">
+         Выберите сотрудников
+       </div>
+       <div class="contentform">
+       
+      <div class="form_row">
+                            
+                            <input type="text" placeholder="Быстрый поиск"><span class="descrerr">Пример ошибки</span>
+                        </div>
+    
+     <p class="h3">Добавить сотрудников в отдел</p>
+    
+     
+     <p>Выбраны 8 из 9</p>
+    <ul class=" add-emp">
+    <li>
+    						<div class="form_row_checkbox" tabindex="5">
+                                <input type="checkbox" class="filled-in" id="emp1"  tabindex="5"/>
+                                <label for="emp1"><span class="img-block">
+                                <img src="images/helen.jpg" alt="" class=" img-circle">
+                                </span> <span>Елена</span></label>
+                            </div>    
+    </li>
+    <li>
+    						<div class="form_row_checkbox" tabindex="5">
+                                <input type="checkbox" class="filled-in" id="emp2"  tabindex="5"/>
+                                <label for="emp2"><span class="img-block">
+                                <img src="images/helen.jpg" alt="" class=" img-circle">
+                                </span> <span>Елена</span></label>
+                            </div>    
+    </li>
+    <li>
+    						<div class="form_row_checkbox" tabindex="5">
+                                <input type="checkbox" class="filled-in" id="emp3"  tabindex="5"/>
+                                <label for="emp3"><span class="img-block">
+                                <img src="images/helen.jpg" alt="" class=" img-circle">
+                                </span> <span>Елена</span></label>
+                            </div>    
+    </li>
+    <li>
+    						<div class="form_row_checkbox" tabindex="5">
+                                <input type="checkbox" class="filled-in" id="emp4"  tabindex="5"/>
+                                <label for="emp4"><span class="img-block">
+                                <img src="images/helen.jpg" alt="" class=" img-circle">
+                                </span> <span>Елена</span></label>
+                            </div>    
+    </li>
+    <li>
+    						<div class="form_row_checkbox" tabindex="5">
+                                <input type="checkbox" class="filled-in" id="emp5"  tabindex="5"/>
+                                <label for="emp5"><span class="img-block">
+                                <img src="images/helen.jpg" alt="" class=" img-circle">
+                                </span> <span>Елена</span></label>
+                            </div>    
+    </li>
+    <li>
+    						<div class="form_row_checkbox" tabindex="5">
+                                <input type="checkbox" class="filled-in" id="emp6"  tabindex="5"/>
+                                <label for="emp6"><span class="img-block">
+                                <img src="images/helen.jpg" alt="" class=" img-circle">
+                                </span> <span>Елена</span></label>
+                            </div>    
+    </li>
+    
+    
+    
+    </ul>
+     
+    
+    
+     
+     
+     
+     
+           
+                     
+             
+       
+       
+          
+         <a href="javascript:;"  role="button" class="btn greenbtn">Сохранить </a>
+       </div>
+     </form>
+   </div>
+   
+   <div id="choisoneemployee" class="white-popup-block ">
+    <form>
+       <div class="headform">
+         Добавление / редактирование сотрудника
+       </div>
+       <div class="contentform">
+       <div class=" add-emp">
+      
+    						
+                                
+                                <img src="images/helen-big.jpg" alt="" class=" img-circle"> <span><a href="javascript:;" role="button" >Загрузить фото</a></span>
+                             
+    </div>
+    
+     <div class="row emp-form">
+     <div class="col l6 m6 s12"><div class="form_row">
+                            
+                            <input type="text" placeholder="Имя"><span class="descrerr">Пример ошибки</span>
+                        </div></div>
+     <div class="col l6 m6 s12"><div class="form_row">
+                            
+                            <input type="text" placeholder="Фамилия"><span class="descrerr">Пример ошибки</span>
+                        </div></div>
+     <div class="col l6 m6 s12"><div class="form_row">
+                            
+                            <input type="email" placeholder="E-mail сотрудника"><span class="descrerr">Пример ошибки</span>
+                        </div></div>
+     <div class="col l6 m6 s12"><div class="form_row">
+                            
+                            <input type="password" placeholder="Пароль"><span class="descrerr">Пример ошибки</span>
+                        </div></div>
+     
+     </div>
+     
+    <ul class="list-inline list-form">
+    <li ><div class="form_row"><select class="dropdown" tabindex="5">
+                                        <option class="label">Телефон</option>
+                                        <option value="1">Россия</option>
+                                        <option value="2">Россия</option>
+                                    </select></div></li>
+                                    <li><div class="form_row"><select class="dropdown" tabindex="5">
+                                        <option class="label">Россия</option>
+                                        <option value="1">Россия</option>
+                                        <option value="2">Россия</option>
+                                    </select></div></li>
+                                    <li><div class="form_row"><input type="tel" placeholder="+7(___)-___-__-__"></div></li>
+                                    <li><div class="form_row"><input type="tel" placeholder=""><span class="descrerr no-eror">Доб. номер</span></div></li>
+                                    
+                                    
+    
+    </ul>
+     <div class="emp-check">
+    <div class="form_row_checkbox">
+                                <input type="checkbox" class="filled-in" id="emp7"  />
+                                <label for="emp7">Может принимать звонки от клиентов</label>
+                            </div> 
+    
+      <div class="form_row_checkbox" >
+                                <input type="checkbox" class="filled-in" id="emp8"  />
+                                <label for="emp8">Может общаться в онлайн чате с клиентами</label>
+                            </div>
+     <div class="form_row_checkbox" >
+                                <input type="checkbox" class="filled-in" id="emp9"  />
+                                <label for="emp9">Может принимать текстовые запросы от клиентов</label>
+                            </div>
+     
+     </div>
+           
+                     
+             
+       
+       
+          
+         <a href="javascript:;"  role="button" class="btn greenbtn">Сохранить </a>
+       </div>
+     </form>
+   </div>
+   
+
+   <script type="text/javascript" src="js/main.js"></script>
+<script src="ui/jquery-ui.js"></script>
+<script src="js/jquery.rating.min.js"></script> 
+<script>
+function two(a) {
+    return (9 < a ? "" : "0") + a
+}
+$.widget("ui.timespinner", $.ui.spinner, {
+    options: {
+        step: 60 * 1000,
+        page: 60
+    },
+    _parse: function(a) {
+        if ("string" === typeof a) {
+            if (Number(a) == a) return Number(a);
+            a = a.match(/\d+/g);
+            (!a || 2 > a.length) && (a = [0, 0]);
+            a[0] *= 36E5;
+            a[1] *= 6E4;
+            return a[0] + a[1]
+        }
+        return a
+    },
+    _format: function(a) {
+        a /= 6E4;
+        var hours = a / 60 | 0;
+        a %= 60;
+        return two(hours) + ":" + two(a)
+    }
+});
+
+
+$(function() {
+    $(".spinner").timespinner({
+        min: 28800000,
+        max: 864E5
+    });
+    $(".spinner").timespinner("value", 28800000)
+});	
+	
+	
+$('.raiting').rating({
+		fx: 'full',
+        image: 'img/stars.png',
+        loader: 'img/ajax-loader.gif',
+        width: 28,
+		titles:['','',''],
+		
+	});	
+	
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Effect</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300&subset=latin,cyrillic" rel="stylesheet" type="text/css">
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+   
+    <div class="header">
+      <div class="container">
+       <div class="row">
+        
+        <button type="button" aria-label="Toggle Navigation" class="mmenu x mmenu_open">
+          <span class="lines"></span>
+        </button>
+        
+        <div class="topmenu closemenu scroll-wrapper">
+          <div class="mclose">
+            <button type="button" aria-label="Toggle Navigation" class="mmenu x close">
+              <span class="lines"></span>
+            </button>
+          </div>
+          <ul>
+            <li><a href="javascript:;"  role="button">Клиенты</a></li>
+            <li><a href="javascript:;"  role="button">Сайты и виджеты</a></li>
+            <li>
+              <a href="javascript:;"  role="button">Сотрудники и отделы</a>
+              <ul>
+                <li><a class="active" href="javascript:;"  role="button">Сотрудники</a></li>
+                <li><a href="javascript:;"  role="button">Отделы</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="javascript:;"  role="button">Сценарии и шаблоны</a>
+              <ul>
+                <li><a href="javascript:;"  role="button">Сценарии</a></li>
+                <li><a href="javascript:;"  role="button">Шаблоны</a></li>
+              </ul>
+            </li>
+            <li><a href="javascript:;"  role="button">Статистика и аналитика</a></li>
+            <li>
+              <a href="javascript:;"  role="button">Администратор</a>
+              <ul>
+                <li><a href="javascript:;"  role="button">Настройка профиля</a></li>
+                <li><a href="javascript:;"  role="button">Баланс и оплата</a></li>
+                <li><a href="javascript:;"  role="button">API</a></li>
+                <li><a href="javascript:;"  role="button">Выход</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        
+        <a  href="javascript:;"  role="button"  class="logo" tabindex="1"></a>
+        
+        <div class="header_menu">
+         
+          <div class="user">
+           <div class="menuoverlay">
+             <a  href="javascript:;"  role="button" class="menudrop" tabindex="1"><span class="menudrop-arrow"></span>
+    
+             <span class="hfoto">
+               <img src="img/admfoto.png" alt="">
+            </span>
+    
+             <span class="hdescr">
+               <span class="hname">Ксюша</span>
+               <span class="status">Администратор</span>
+             </span> 
+             </a>
+             
+           </div>
+    
+           
+          
+           
+           <ul class="menuuser">
+             <li><a href="javascript:;"  role="button">Настройки профиля</a></li>
+             <li><a href="javascript:;"  role="button">Баланс и оплата</a></li>
+             <li><a href="javascript:;"  role="button">API</a></li>
+             <li><a href="javascript:;"  role="button">Выход</a></li>
+           </ul>
+           
+          </div>
+          
+          <ul>
+            <li><a class="ico1" href="javascript:;"  role="button" tabindex="2">
+              <span class="notice">1</span>
+              <span class="dot">Уведомления</span></a>
+            </li>
+            <li><a class="ico2" href="javascript:;"  role="button" tabindex="3"><span class="dot">Помощь</span></a></li>
+            <li><a class="ico3" href="javascript:;"  role="button" tabindex="4"><span class="dot">6 789 руб.</span></a></li>
+          </ul>
+          
+        </div>
+        
+        </div>
+      </div>  
+    </div>
+    
+    <div class="menu">
+      <div class="container">
+       <div class="row">
+       
+         <ul>
+           <li><a href="javascript:;"  role="button"  tabindex="5">Клиенты</a></li>
+           <li><a href="javascript:;"  role="button" tabindex="5">Сайты и виджеты</a></li>
+           <li>
+               <a class="hasdropmenu" href="javascript:;"  role="button" tabindex="5">Сотрудники и отделы</a>
+               <ul class="dropmenu">
+                   <li><a class="active" href="javascript:;"  role="button">Сотрудники</a></li>
+                   <li><a href="javascript:;"  role="button">Отделы</a></li>
+               </ul>
+           </li>
+           <li>
+               <a class="hasdropmenu" href="javascript:;"  role="button" tabindex="5">Сценарии и шаблоны</a>
+               <ul class="dropmenu">
+                   <li><a class="active" href="javascript:;"  role="button">Сценарии</a></li>
+                   <li><a href="javascript:;"  role="button">Шаблоны</a></li>
+               </ul>
+           </li>
+           <li><a href="javascript:;"  role="button" tabindex="5">Статистика и Аналитика</a></li>
+         </ul>
+         
+         <a  href="javascript:;"  role="button" class="openmenu"></a>
+         
+        </div>
+      </div>  
+    </div>
+    
+    <div class="secondmenu">
+      <div class="container">
+       <div class="row">
+        
+         <div class="col s12" id="secondmenurow"></div>
+         
+        </div>
+      </div> 
+    </div>
+    
+    <div class="content">
+      <div class="container content_container">
+        <div class="row">
+          
+          <div class="subject">
+            <h1>Добавление / редактирование сценария</h1>
+            <a href="javascript:;"  role="button" class="playreview whitebtn" tabindex="5">Посмотреть видео-обзор раздела</a>
+          </div>
+
+         
+          <div class="addblock row">
+            <div class="col s12 m3 l3 lmenu">
+              <ul>
+                  <li>
+                      <a href="javascript:;"  role="button" tabindex="5">
+                          <span class="icon"><img alt="" src="img/ico1.png"></span>
+                          <span>Название и сайты</span>
+                      </a>
+                  </li>
+                  <li>
+                      <a class="active" href="javascript:;"  role="button" tabindex="5">
+                          <span class="icon"><img alt="" src="img/ico6.png"></span>
+                          <span>Условия</span>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="javascript:;"  role="button" tabindex="5">
+                          <span class="icon"><img alt="" src="img/ico7.png"></span>
+                          <span>Расписание и последствие</span>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="javascript:;"  role="button" tabindex="5">
+                         <span class="icon"><img alt="" src="img/ico8.png"></span>
+                          <span>Распределение</span>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="javascript:;"  role="button" tabindex="5">
+                          <span class="icon"><img alt="" src="img/ico9.png"></span>
+                          <span>Содержание и предосмотр</span>
+                      </a>
+                  </li>
+              </ul>
+            </div>
+            <div class="col s12 m9 l9 whitebg">
+                <div class="rblock">
+                                       
+                    <form class="fscript_2 stform">
+                        <div class="form_row">
+                            <p class="no-label">Страницы сайта</p>
+                            
+                            <div class="form_row_inner">
+                                <select class="dropdown" tabindex="5">
+                                    <option class="label">На указанной</option>
+                                    <option value="1">На указанной 1</option>
+                                    <option value="2">На указанной 2</option>
+                                    <option value="3">На указанной 3</option>
+                                </select>
+                            </div>
+                            
+                            <input type="url" placeholder="Введите адрес (URL) страницы" tabindex="5">
+                            <span class="descrerr">Пример ошибки</span>
+                         
+                        </div>
+                        
+                        <div class="form_row">
+                            <p class="no-label">Время показа</p>
+                            <div class="form_row_checkbox form_checkbox_content" tabindex="5">
+                                <input type="checkbox" class="filled-in" id="time1" checked />
+                                <label for="time1">Гарантированный показ через</label>
+
+                                <input type="number" placeholder="30" class="form_row_checkbox_input" tabindex="5">
+                                <select class="dropdown" tabindex="5">
+                                    <option class="label">Секунд</option>
+                                    <option value="1">Минут</option>
+                                    <option value="2">Часов</option>
+                                    <option value="3">Суток</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form_row_checkbox form_checkbox_content" tabindex="5">
+                                <input type="checkbox" class="filled-in" id="time2" />
+                                <label for="time2">Показ строго не ранее</label>
+
+                                <input  type="number" placeholder="30" class="form_row_checkbox_input" tabindex="5">
+                                <select class="dropdown" tabindex="5">
+                                    <option class="label">Секунд</option>
+                                    <option value="1">Минут</option>
+                                    <option value="2">Часов</option>
+                                    <option value="3">Суток</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form_row">
+                            <p class="no-label">Поведение посетителя</p>
+                            <div class="form_row_checkbox" tabindex="5">
+                                <input type="checkbox" class="filled-in" id="beh1" />
+                                <label for="beh1">Впервые на сайте</label>
+                            </div>
+                            
+                            <div class="form_row_checkbox" tabindex="5">
+                                <input type="checkbox" class="filled-in" id="beh2" />
+                                <label for="beh2">Пытается уйти с сайта</label>
+                            </div>
+                            
+                            <div class="form_row_checkbox form_checkbox_content"  tabindex="5">
+                                <input type="checkbox" class="filled-in" id="beh3"/>
+                                <label for="beh3">Начал простмотр других вкладок, не закрывая сайт</label>
+                            </div>
+                            
+                            <div class="form_row_checkbox form_checkbox_content" tabindex="5">
+                                <input type="checkbox" class="filled-in" id="beh4" />
+                                <label for="beh4">Вернулся после закрытия сайта через</label>
+                                
+                                <input  type="number" placeholder="1" class="form_row_checkbox_input" tabindex="5">
+                                <select class="dropdown" tabindex="5">
+                                    <option class="label">Секунд</option>
+                                    <option value="1">Минут</option>
+                                    <option value="2">Часов</option>
+                                    <option value="3">Суток</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form_row_checkbox form_checkbox_content" tabindex="5">
+                                <input type="checkbox" class="filled-in" id="beh5" />
+                                <label for="beh5">Просмотрел не менее </label>
+                                
+                                <input type="text" placeholder="3" class="form_row_checkbox_input" tabindex="5"> <label>страниц</label>
+                            </div>
+                            
+                            <div class="form_row_checkbox form_checkbox_content" tabindex="5">
+                                <input type="checkbox" class="filled-in" id="beh6" />
+                                <label for="beh6">Пролистал до конца страницу</label><br>
+                                <div class="url-block">
+                                <input type="url" placeholder="Введите адрес (URL) страницы" class="seeend" tabindex="5">
+                                <span class="descrerr">Пример ошибки</span>
+                                </div>
+                            </div>                                     
+                            
+                        </div>
+                        
+                        <div class="form_row">
+                            <p class="no-label">Источники и метки</p>
+                            
+                            <div class="form_row_checkbox" tabindex="5">
+                                <input type="checkbox" class="filled-in" id="source1" />
+                                <label for="source1">Выводить сообщение, только если перешел с сайта </label><br>
+                                
+                                <div id="source_1" class="pb10">
+                                <div class="url-block">
+                                    <input type="url" placeholder="Введите адрес (URL) страницы" class="seeend" tabindex="5">
+                                    <a  href="javascript:;"  role="button" class="addfield">Добавить</a>
+                                    <span class="descrerr">Пример ошибки</span>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            
+                            <div class="form_row_checkbox" tabindex="5">
+                                <input type="checkbox" class="filled-in" id="source2" />
+                                <label for="source2">Выводить сообщение, только если перешел по метке</label><br>
+                                
+                                <div id="source_2" class="pb10">
+                                <div class="url-block">
+                                    <input type="text" placeholder="Введите без кавычек (например, «?site7»)" class="seeend" tabindex="5">
+                                    
+                                    <a  href="javascript:;"  role="button" class="addfield">Добавить</a>
+                                    <span class="descrerr">Пример ошибки</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="form_row_checkbox" tabindex="5">
+                                <input type="checkbox" class="filled-in" id="source3" />
+                                <label for="source3">Выводить сообщение, только если перешел по ключевой фразе</label><br>
+                                
+                                <div id="source_3" class="pb10">
+                                <div class="url-block">
+                                    <textarea placeholder="Введите фразы без кавычек через запятую (например, «купить окно, купить пластиковое окно, купить окно в Москве»)" class="seeend" tabindex="5"></textarea>
+                                    </div>
+                                </div>  
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="form_row">
+                            <p class="no-label">Настройка на аудиторные сегменты</p>
+                            
+                            <div class="form_row_50_wrap">
+                                <div class="form_row_50">
+                                    <p class="no-label">Пол</p>
+                                    <select class="dropdown" tabindex="5">
+                                        <option class="label">Не важно</option>
+                                        <option value="1">Мужской</option>
+                                        <option value="2">Женский</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="form_row_50">
+                                    <p class="no-label">Возраст</p>
+                                    <select class="dropdown" tabindex="5">
+                                        <option class="label">Не важно</option>
+                                        <option value="1">Молодой</option>
+                                        <option value="2">Старый</option>
+                                    </select>
+                                </div>
+                                <div class="form_row_50"></div>
+                            </div>
+                            
+                            <div class="category_row form_row" tabindex="5">
+                                <p class="no-label">Выберите категории интересов посетителя</p>
+                                <select data-placeholder="Выберите категории" multiple="" class="chosen-select" >
+                                    <option selected>Авто-мото</option>
+                                    <option selected>Одежда, обувь</option>
+                                    <option>Бытовая техника</option>
+                                    <option>Спорт</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form_row_checkbox" tabindex="5">
+                                <input type="checkbox" class="filled-in" id="source4" />
+                                <label for="source4">Выводить сообщение, только если известно имя посетителя</label>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="form_row">
+                            <p class="no-label">География посетителя</p>
+                            
+                            <div class="form_row_child">
+                                <p class="no-label">Страна</p>
+                                <select class="dropdown" tabindex="5">
+                                    <option class="label">Все страны</option>
+                                    <option value="1">СНГ</option>
+                                    <option value="2">СССР</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="category_row form_row " tabindex="5">
+                            <p class="no-label">Города и регионы</p>
+                            <select  data-placeholder="Выберите категории" multiple="" class="chosen-select">
+                                <option selected>Москва</option>
+                                <option selected>Московская область</option>
+                                <option selected>Санкт-Петербург</option>
+                                <option>Спорт</option>
+                            </select>
+                        </div>
+                        
+                          
+                        <div class="category_row form_row"  tabindex="5">
+                            <p class="no-label">За исключением</p>
+                            <select  data-placeholder="Выберите категории" multiple="" class="chosen-select">
+                                <option selected>Королев</option>
+                                <option>Московская область</option>
+                                <option>Санкт-Петербург</option>
+                                <option>Спорт</option>
+                            </select>
+                        </div>
+                        
+
+                        <div class="form_row">
+                            <button type="submit" class="greenbtn"  tabindex="5">Сохранить</button>
+                            <button type="submit" class="greenbtn"  tabindex="5">Сохранить и перейти на следующий шаг</button>
+                        </div>  
+                        
+                    </form>
+                </div>
+            </div>
+          </div>
+          
+
+          
+          
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer">
+        <div class="buttontop"><span class="opacity"></span></div>
+        <div class="container">
+            <div class="row">
+                <div class="col s6 m3 l3">
+                  © 2015 - ∞. Vasya, все тлько начинается
+                  Все права защищены супер-защитой.
+                  +7 (777) 666-55-44 
+                </div>
+                <div class="col s6 m3 l3">
+                    <ul class="footermenu">
+                        <li><a href="javascript:;"  role="button">Партнерская программа</a></li>
+                        <li><a href="javascript:;"  role="button">Договор офоерта</a></li>
+                        <li><a href="javascript:;"  role="button">Политика конфиденциальности</a></li>
+                        <li><a href="javascript:;"  role="button">СМИ</a></li>
+                    </ul>
+                </div>
+                <div class="col s6 m3 l3">
+                    <ul class="footermenu">
+                        <li><a href="javascript:;"  role="button">ВКонтакте</a></li>
+                        <li><a href="javascript:;"  role="button">FaceBook</a></li>
+                        <li><a href="javascript:;"  role="button">Twitter</a></li>
+                        <li><a href="javascript:;"  role="button">Youtube</a></li>
+                    </ul>
+                </div>
+                <div class="col s6 m3 l3">
+                    <ul class="footermenu">
+                        <li><a href="javascript:;"  role="button">Это подвал</a></li>
+                        <li><a href="javascript:;"  role="button">Личного кабинета</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>  
+    </div>
+
+   <script type="text/javascript" src="js/main.js"></script>
+
+    
+</body>
+</html>
